@@ -16,8 +16,7 @@ $(document).ready(function() {
       "content-type": "application/x-www-form-urlencoded",
       "x-mashape-key": "7xuHGaQFVXmsh9hseX7ljiSdyF7ep1HpEbNjsnwfJNXTmSi2CQ",
       "accept": "application/json",
-      "cache-control": "no-cache",
-      "postman-token": "878ad831-4f8f-d6cb-54ae-f900a8943fd4"
+      "cache-control": "no-cache"
     }
   }
 
@@ -48,4 +47,4 @@ $(document).ready(function() {
 
 
 });
-//  7xuHGaQFVXmsh9hseX7ljiSdyF7ep1HpEbNjsnwfJNXTmSi2CQ
+
