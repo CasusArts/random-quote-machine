@@ -1,0 +1,22 @@
+{
+  "name": "random-quote-machine",
+  "version": "0.1.0",
+  "description": "freeCodeCamp Intermediate Front End Development Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "quotes",
+    "freecodecamp",
+    "html",
+    "bootstrap",
+    "jquery"
+  ],
+  "author": "Fiodor Gorobet",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}
