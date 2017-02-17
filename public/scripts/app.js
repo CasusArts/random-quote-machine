@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-
-
   // Getting Quotes from https://market.mashape.com/andruxnet/random-famous-quotes API
   function fetchQuote(e) {
     $.ajax(settings).done(function(res) {
@@ -12,7 +10,9 @@ $(document).ready(function() {
 
       html += "<cite>" + res.quote + "</cite><br>";
       html += "<strong> - " + res.author + "</strong><br>";
-      html += "<i>Category: " + res.category + "</i>"
+
+      // TODO: Enhance multiple category selection
+      // html += "<i>Category: " + res.category + "</i>"
 
       $("#quote").html(html);
     });
@@ -29,4 +29,3 @@ $(document).ready(function() {
   // Show next random quote
   $("#getQuote").on("click", fetchQuote);
 });
-
