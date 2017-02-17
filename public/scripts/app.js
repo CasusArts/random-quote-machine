@@ -1,12 +1,5 @@
 $(document).ready(function() {
 
-
-  // var data = {
-  //   "Content-Type": "application/x-www-form-urlencoded",
-  //   "X-Mashape-Key": "7xuHGaQFVXmsh9hseX7ljiSdyF7ep1HpEbNjsnwfJNXTmSi2CQ",
-  //   "Accept": "application/json"
-  // }
-
   var settings = {
     "async": true,
     "crossDomain": true,
@@ -28,13 +21,7 @@ $(document).ready(function() {
 
       var html = "";
 
-        // console.log(res);
-        // console.log(loc);
-
       res = JSON.parse(res);
-        // console.log(res);
-        // console.log(res.author);
-        // console.log(res.quote);
 
       html += "<cite>" + res.quote + "</cite><br>";
       html += "<strong> - " + res.author + "</strong><br>";
