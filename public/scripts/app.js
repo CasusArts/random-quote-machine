@@ -17,7 +17,12 @@ function getQuote(e) {
 
     $("#quote").html(html);
 
-    $('.twitter-share-button').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + quote + '" ' + author));
+    $('.twitter-share-button')
+      .attr(
+        'href',
+        'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text='
+        + encodeURIComponent('"' + quote + '" ' + author)
+      );
   });
 }
 
