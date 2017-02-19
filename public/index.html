@@ -8,9 +8,14 @@
     <title>Random Quote Machine</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/reset.css">
+		<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 		<!-- Fontawesome 4.7.0 -->
 		<link rel="stylesheet" href="styles/font-awesome/css/font-awesome.min.css">
+		<!-- GOOGLE FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 		<!-- Custom Style -->
 		<link rel="stylesheet" href="styles/main.css">
 		<!-- Twitter API -->
@@ -27,23 +32,32 @@
   </head>
   <body>
     <div class="container-fluid">
-			<div class="raw text-center">
-				<h2 class="heading-main">Random Quote Machine</<h2>
-			</div>
-			<div class="raw text-center">
-				<div id="quote" class="col-xs-12 well message">
-					<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
-						<span class="sr-only">Loading...</span>
+			<header class="container heading-area">
+				<div class="raw text-center">
+					<h2 class="heading-font">Random Quote Machine</<h2>
+				</div>
+			</header>
+			<main class="container main-area">
+				<div class="raw text-center">
+					<div id="quote" class="col-xs-12 well message">
+						<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+							<span class="sr-only">Loading...</span>
+						</div>
+				</div>
+			</main>
+			<div class="container bottom-area">
+				<div class="row text-center">
+					<div class="col-xs-12">
+						<button id="getQuote" class="btn btn-default">
+							Get Quote
+						</button>
+						<i class="fa fa-retweet" aria-hidden="true"></i><a class="twitter-share" href="https://twitter.com/intent/tweet?text=" data-size="large">Tweet</a>
 					</div>
-			</div>
-			<div class="row text-center">
-				<div class="col-xs-12">
-					<button id="getQuote" class="btn btn-default">
-						Get Quote
-					</button>
-					<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=" data-size="large">Tweet</a>
 				</div>
 			</div>
+			<footer class="container footer-area">
+				<p>(c) Fiodor Gorobet</p>
+			</footer>
 		</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

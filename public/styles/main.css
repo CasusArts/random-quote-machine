@@ -1,7 +1,43 @@
 body {
-  background-color: rgba(16, 17, 8, 1);
+  background-color: #C5D7E4;
 }
 
-.heading-main {
-  color: rgba(255, 250, 8, 1);
+.heading-font {
+  color: #5662B3;
+  font-family: 'Courgette', cursive;
+  font-size: 66px;
+}
+
+.quote-font {
+  color: #2A3871;
+}
+
+.heading-area {
+  height: 40vh;
+}
+
+.main-area {
+  /* height: 25vh; */
+  color: #2A3871;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+}
+
+.author {
+  font-size: 16px;
+}
+
+.quote-sign {
+  font-size: 28px;
+}
+
+.bottom-area {
+  height: 20vh;
+}
+
+.footer-area {
+  height: 10vh;
+  background-color: #2A3871;
+  color: #C5D7E4;
 }
