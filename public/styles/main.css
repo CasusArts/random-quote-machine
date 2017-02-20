@@ -5,15 +5,18 @@ body {
 .heading-font {
   color: #5662B3;
   font-family: 'Courgette', cursive;
-  font-size: 66px;
+  font-size: 50px;
+  text-shadow: 2px 4px 2px rgba(255, 255, 255, 0.4);
 }
+
 
 .quote-font {
   color: #2A3871;
 }
 
 .heading-area {
-  height: 40vh;
+  padding-top: 4vh;
+  height: 20vh;
 }
 
 .main-area {
@@ -22,6 +25,8 @@ body {
   /*font-family: 'Raleway', sans-serif;*/
   font-family: 'Open Sans', sans-serif;
   font-size: 22px;
+
+  padding-top: 5vh;
 }
 
 .author {
@@ -32,7 +37,7 @@ body {
   font-size: 28px;
 }
 
-.bottom-area {
+.button-area {
   height: 20vh;
 }
 
@@ -40,4 +45,17 @@ body {
   height: 10vh;
   background-color: #2A3871;
   color: #C5D7E4;
+}
+
+/* CUSTOM ELEMENTS ON PAGE */
+#twitter-custom-button {
+  display: block;
+  padding: 2px 5px 2px 5px;
+  background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
+  border: 1px solid #ccc;
+}
+
+.retweet-svg {
+  height: 24px;
+  width: 24px;
 }
