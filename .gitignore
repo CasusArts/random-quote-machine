@@ -60,4 +60,4 @@ typings/
 .env
 
 # api settings
-settings.js
+# settings.js
