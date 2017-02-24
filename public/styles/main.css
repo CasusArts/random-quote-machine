@@ -16,7 +16,6 @@ body {
 
 .heading-area {
   padding-top: 4vh;
-  padding-bottom: 2vh;
   height: 20vh;
 }
 
@@ -43,7 +42,10 @@ body {
 }
 
 .footer-area {
-  height: 10vh;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
   background-color: #2A3871;
   color: #C5D7E4;
 }
