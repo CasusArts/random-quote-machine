@@ -61,3 +61,5 @@ typings/
 
 # api settings
 # settings.js
+
+.vscode

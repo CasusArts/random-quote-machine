@@ -12,6 +12,6 @@ Every time page is loading or "Get Quote" button is triggered, new quote appears
 It is also possible to retweet current quote by pushing on "Retweet" button.
 
 The new features are planned:
-- live demo on https://codepen.io
+- live demo on https://codepen.io/casus/pen/NdVgoO
 - getting new quote automaticaly every 20 seconds
 - changing app style to dark version and vice versa
