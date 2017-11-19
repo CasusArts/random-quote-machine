@@ -38,6 +38,9 @@ node_modules/
 jspm_packages/
 font-awesome/
 
+# Visual Studio Code settings folder
+.vscode/
+
 # Typescript v1 declaration files
 typings/
 
@@ -62,4 +65,3 @@ typings/
 # api settings
 # settings.js
 
-.vscode
